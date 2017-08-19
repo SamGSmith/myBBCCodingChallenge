@@ -1,0 +1,10 @@
+{
+  "name": "bbcpushbulletapi",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "express": "~4.15.4",
+    "express-validator": "^3.2.1",
+    "request": "^2.81.0"
+  }
+}
