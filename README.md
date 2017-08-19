@@ -4,7 +4,7 @@ A simple Push Notification Service where one can add users, list users and send 
 
 ## Requirements
 
--Node and npm
+- Node and npm
 
 ## To Requirements
 

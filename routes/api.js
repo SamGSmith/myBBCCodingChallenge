@@ -8,9 +8,8 @@ var router = express.Router();
 var user = require('../models/user.js');
 var usersArr = require('../models/usersArr.js');
 
-//TODO add link to github repo
 router.get('/', function(req, res) {
-	res.json({ message: 'Welcome to this api, where you can add users and send notifications via pushbullet' });
+	res.json({ message: 'Welcome to this api, where you can add users and send notifications via pushbullet. See README.md locally or at https://github.com/SamGSmith/myBBCCodingChallenge' });
 });
 
 // route for adding new user
