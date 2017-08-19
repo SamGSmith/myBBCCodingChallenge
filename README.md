@@ -15,8 +15,8 @@ A simple Push Notification Service where one can add users, list users and send 
 ## To use the API
 
 To add a new user, send a POST request to localhost:3000/api/user with the following in the body:
--username: exampleUsername
--accessToken: exampleAccessToken (pushbullet access token)
+- username: exampleUsername
+- accessToken: exampleAccessToken (pushbullet access token)
 
 To see all users in the system, send a GET request to localhost:3000/api/user
 
