@@ -12,6 +12,9 @@ app.use(bodyParser.json());
 app.use(expressValidator());
 
 // use specified routes
+app.get('/', function(req, res){
+	res.redirect('/api');
+});
 app.use('/api', routes);
 
 // simple error handling middleware
@@ -24,3 +27,6 @@ app.use(function(err, req, res, next) {
 // set the port
 var port = process.env.PORT || 3000;
 app.listen(port);
+console.log("Listening on port:"+port);
+
+module.exports = app;
